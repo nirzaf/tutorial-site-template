@@ -244,7 +244,7 @@ function AdvancedComponent({ data, onUpdate, config = {} }) {
   };
   
   return (
-    <div className={`container ${theme}`}>
+    <div className={"container " + theme}>
       <h2>Advanced Component</h2>
       {processedData.map(item => (
         <div key={item.id} className="item">
